@@ -21,7 +21,7 @@ Automated Docker Compose deployment for an existing Traefik server.
 - Docker Compose v2
 - Existing Traefik installation
 - External Docker network named `proxy`
-- DNS record for `n8n.cqdxbrasil.com` pointing to the server
+- DNS record for `n8n.example.com` pointing to the server
 - Recommended minimum for the AI sandbox: 4 GB RAM and 2 vCPUs
 
 ## Install
@@ -36,7 +36,7 @@ sudo ./install-n8n.sh
 Default URL:
 
 ```text
-https://n8n.cqdxbrasil.com
+https://n8n.example.com
 ```
 
 To use another domain:
